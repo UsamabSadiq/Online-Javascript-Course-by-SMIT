@@ -47,7 +47,7 @@ function addParaEle(content) {
 
 function addList(listItem) {
 
-    // Create an "li" node:
+    // Create an "li" element:
     const newListItem = document.createElement("li");
     document.getElementById("unorderList").appendChild(newListItem).innerText = listItem;
 }
